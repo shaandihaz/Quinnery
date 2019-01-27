@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsageWarningActivity">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Take Care Using Herbicides"
+        android:textSize="30sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:text="Warning! Herbicides can be harmful to the environment. Use non-chemical methods when possible. When using herbicides, make sure to follow the instructions on the label, as not doing so can harm the environment and is also prohibited by law. Be very careful to only spray invasive plants, as many herbicides will kill native plants if sprayed on them. Do not spray herbicides in water, or on windy days, or when rain is predicted in the next 6-8 hours, as all of these can spread the herbicides to native plants."
+        android:textSize="16sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="320dp"
+        android:text="Watch What You Pull"
+        android:textSize="30sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="370dp"
+        android:text="When hand pulling plants, be sure to be very careful that the plants you are pulling are actually invasive. Many invasive plants can mimic their native counterparts, and accidentally pulling native plants can be detrimental to the environment. Pulling natvie plants lessens their ability to outgrow and compete with invasive plants, allowing invasive plants to outcompete native plants. Please consult with your local Fish and Wildlife Service chapter before taking on any big projects. "
+        android:textSize="16sp"
+        app:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
